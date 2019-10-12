@@ -9,6 +9,8 @@ const forcast = require('./utils/forcast');
 
 const app=express()
 
+const port=process.env.PORT || 3000
+
 
 //define paths for express config
 const public_dir_path=path.join(__dirname,'../public')
@@ -78,6 +80,7 @@ app.get('/weather',(req,res)=>{
 app.get('*',(req,res)=>{
   res.send('My 404 page')
 })
-app.listen(3000,()=>{
-  console.log('server started');
+
+app.listen(port,()=>{
+  console.log('server started to'+port);
 })
