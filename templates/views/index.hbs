@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Home</title>
+	 <link rel="stylesheet" type="text/css" href="form.css">
+  <link rel="icon" href="/img/icon.png">
+
+  </head>
+  {{> header}}
+
+  <body>
+    <div class="weather">
+    <h1>Weather</h1>
+   </div>
+   <div class="new_form">
+    <p id="text">Use this site to get your weather!</p>
+
+
+    <!--  -->
+    <form>
+    <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="Which location weather are you looking for?">
+      <button type="submit" class="searchButton">
+      <i class="fa fa-search"></i>
+     </button>
+   </div>
+   </div>
+ </form>
+
+<!--
+    <form>
+      <input placeholder="location">
+      <button>Search</button>
+    </form> -->
+
+  <br>
+  <br>
+  <p id="message-1"></p>
+  <p id="message-2"></p>
+  </div>
+
+
+
+  <script src="./js/client.js"></script>
+  </body>
+    {{> footer}}
+</html>
