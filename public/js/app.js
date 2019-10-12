@@ -12,7 +12,6 @@ const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 
-const port=process.env.PORT || 3000
 
 messageOne.textContent=''
 
