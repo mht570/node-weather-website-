@@ -8,19 +8,19 @@ font-size: 20px;
   padding-left: 170px;
   font-family: Arial,Helvetica,sans-serif;
   font-size:30px;
-  color:white;
+  color:#999999;
 }
 #message-1{
-  padding-left: 180px;
+  padding-left: 210px;
   font-family: Arial,Helvetica,sans-serif;
   font-size:25px;
-  color:white;
+  color:#999999;
 }
 
 #message-2{
   font-family: Arial,Helvetica,sans-serif;
   font-size:25px;
-  color:white;
+  color:#999999;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -34,24 +34,24 @@ font-size: 20px;
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00B4CC;
+  border: 3px solid #000000;
   border-right: none;
   padding: 5px;
-  height: 25px;
+  height: 20px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
 }
 
 .searchTerm:focus{
-  color: #00B4CC;
+  color: #000000;
 }
 
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
+  border: 1px solid #000000;
+  background: #000000;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
