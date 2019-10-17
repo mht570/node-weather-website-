@@ -17,9 +17,14 @@ body{
 	overflow: hidden;
 }
 
+.container-1{
+	width:40%;
+	margin: auto;
+	overflow: hidden;
+}
+
 #weather{
 float: left;
-padding-left: 215px;
 color:#999999;
 font-size: 80px;
 }
@@ -29,9 +34,9 @@ font-size: 80px;
 }
 #navbar{
 
-	background-color: #66ffff;
+	background-color:  #00b3b3;
 	color:white;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 #navbar ul{
