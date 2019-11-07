@@ -1,11 +1,10 @@
 body{
-	/* background-color:#f4f4f4; */
-	/* background-image:url('./img/5.jpg') ;
-  background-repeat: no-repeat;
-	background-position: 0 0;
-	background-size: cover; */
 	color: #555;
 	font-family: Arial,Helvetica,sans-serif;
+	background: url(./img/wea5.gif);
+	background-repeat: no-repeat;
+  /* background-position: 0 0; */
+  background-size: cover;
 	font-size: 20px;
 	line-height: 1.6em;
 	margin: 0;
@@ -25,16 +24,19 @@ body{
 
 #weather{
 float: left;
-color:#999999;
-font-size: 80px;
+color:white;
+font-size: 100px;
 }
 
 #image{
 	float: left;
 }
 #navbar{
-
-	background-color:  #00b3b3;
+  /* background-image:url('./img/10.jpg') ;
+	background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover; */
+	background-color: #E0F7FA;
 	color:white;
 	opacity: 0.9;
 }
@@ -45,12 +47,13 @@ font-size: 80px;
 }
 #navbar li{
 	display: inline;
+	color: white;
 }
 
 #navbar a{
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 25px;
 	font-stretch: expanded;
 	padding-right: 15px;
 }
@@ -65,8 +68,8 @@ font-size: 80px;
 	position: absolute;
   bottom: 0;
   width: 100%;
-	background: black;
-	color: #fff;
+	background: #18FFFF;
+	color: white;
 	text-align: center;
 	margin-top: 5px;
 	font-size: 15px;
@@ -78,8 +81,8 @@ font-size: 80px;
 	position: absolute;
   bottom: 0;
   width: 100%;
-	background: black;
-	color: #fff;
+	background: #18FFFF;
+	color: white;
 	text-align: center;
 	margin-top: 5px;
 	font-size: 15px;
